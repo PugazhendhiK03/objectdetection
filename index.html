@@ -3,17 +3,23 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Real-time Object Detection</title>
-    <link rel="stylesheet" href="style.css">
+    <title>Security Surveillance System</title>
+    <link rel="stylesheet" href="styles.css">
 </head>
 <body>
     <div class="container">
-        <h1>Real-time Object Detection</h1>
+        <h1>Security Surveillance System</h1>
         <div class="video-container">
-            <video id="videoElement" autoplay></video>
-            <canvas id="canvasElement"></canvas>
+            <video id="live-video" autoplay></video>
         </div>
-        <div id="results" class="results-container"></div>
+        <div class="status">
+            <h2>System Status</h2>
+            <p id="status-text">Connecting...</p>
+        </div>
+        <div class="alerts">
+            <h2>Alerts</h2>
+            <ul id="alert-list"></ul>
+        </div>
     </div>
     <script src="script.js"></script>
 </body>

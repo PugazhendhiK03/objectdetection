@@ -5,38 +5,31 @@ body {
 }
 
 .container {
-    max-width: 1000px;
-    margin: 20px auto;
+    max-width: 800px;
+    margin: 0 auto;
     padding: 20px;
     text-align: center;
-    border: 1px solid #ccc;
-    border-radius: 5px;
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-}
-
-h1 {
-    margin-bottom: 20px;
 }
 
 .video-container {
-    position: relative;
+    margin-bottom: 20px;
 }
 
-#videoElement, #canvasElement {
-    display: block;
+video {
     max-width: 100%;
-    margin: auto;
-    margin-top: 10px;
-    border: 1px solid #333;
 }
 
-.results-container {
-    max-width: 400px;
+.status, .alerts {
     margin-top: 20px;
-    text-align: left;
-    border: 1px solid #ccc;
-    padding: 10px;
-    border-radius: 5px;
+}
+
+ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+.alert {
+    background-color: #ffcccc;
+    padding: 8px;
+    margin-bottom: 5px;
 }
